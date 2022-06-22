@@ -242,6 +242,7 @@ nav a.active {
   border-radius: 0 3px 3px 0;
   box-shadow: 3px 1px 6px black;
   left: -10px;
+  font-size: 12px !important;
 }
 
 .App #projects main .each-project .project-img img {
@@ -278,8 +279,7 @@ nav a.active {
 
 .App #projects main .each-project .project-info p {
   margin-bottom: 10px;
-  line-height: 20px;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .App #projects main .each-project .project-info .btn-container {
@@ -441,12 +441,16 @@ nav a.active {
 
   .App #profile #minimize {
     width: 90%;
-    max-width: 300px;
+    max-width: 470px;
   }
 
   .App #profile main img {
     width: 70%;
     height: auto;
+  }
+
+  .App #profile main #skills {
+    text-align: center;
   }
 
   .App #profile footer {
@@ -461,11 +465,11 @@ nav a.active {
     color: #fec519;
   }
 
-  .App #profile footer a span {
+  /* .App #profile footer a span {
     font-size: 12px;
     margin-left: 25px;
     color: #fec51994;
-  }
+  } */
 
   /* Profile ends here */
 
