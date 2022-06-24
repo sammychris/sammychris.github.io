@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-blog-index-js",
+    "path": "/blog/",
+    "result": {"data":{"allMarkdownRemark":{"edges":[{"node":{"id":"c2d76e70-7caa-510c-bb8f-4ec917c9ca8c","excerpt":"","frontmatter":{"date":"May 04, 2019","slug":"/blog/my-first-post","title":"My first blog post"}}},{"node":{"id":"5751289c-2359-5e73-9d8f-a3bbcdb5ae82","excerpt":"Have you ever wondered how open-source libraries built by companies come into existence? I've always been curious about it. Do they start with the intention of creating an internal library? Is open-source the initial goal? If neither, how does it…","frontmatter":{"date":"January 15, 2019","slug":null,"title":"How we harnessed the power of reactive programming with Refract"}}}]}},"pageContext":{}},
+    "staticQueryHashes": []}
