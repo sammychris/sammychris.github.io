@@ -1,5 +1,6 @@
 import React from "react";
-import ProfileLink from "./ProfileLink";
+import ProfileIcon from "./ProfileIcon";
+import Stacks from "./Stacks";
 
 const MyProfile = () => {
   return (
@@ -17,26 +18,26 @@ const MyProfile = () => {
             />
           </div>
           <footer>
-            <ProfileLink
+            <ProfileIcon
               url="mailto:ebusameric@gmail.com"
               name="envelope-square"
               // title="Email"
             />
-            <ProfileLink
+            <ProfileIcon
               url="https://github.com/sammychris"
               name="github"
               // title="Github"
             />
-            <ProfileLink
+            <ProfileIcon
               url="https://twitter.com/sammychrise"
               name="twitter"
               // title="Twitter"
             />
-            <ProfileLink
+            <ProfileIcon
               url="https://www.linkedin.com/in/sammychrise"
               name="linkedin"
             />
-            <ProfileLink
+            <ProfileIcon
               url="https://sammychris.hashnode.dev/"
               name="feed"
               // title="Blog"
@@ -51,36 +52,31 @@ const MyProfile = () => {
           <div id="skills">
             <h3>Skills:</h3>
             <div id="skill">
-              {/* <span style={{ background: "#ca2b03" }}>HTML5</span>
-              <span style={{ background: "#379ad6" }}>CSS3</span> */}
-              <span style={{ background: "#cea000" }}>JavaScript</span>
-              <span style={{ background: "#5ed4f3" }}>React</span>
-              <span style={{ background: "#111" }}>Next.js</span>
-              <span style={{ background: "#2f74c0" }}>TypeScript</span>
-              {/* <span style={{ background: "#f5824c" }}>D3</span> */}
-              {/* <span style={{ background: "#5f3f88" }}>Bootstrap</span> */}
-              <span style={{ background: "#b55f8c" }}>Sass</span>
-              <span style={{ background: "#7248b6" }}>Redux</span>
-              <span style={{ background: "#3a8f24" }}>Nodejs</span>
-              <span style={{ background: "#122838" }}>Express.js</span>
-              {/* <span style={{ background: "#cea11a" }}>Unit Testing</span> */}
-              <span style={{ background: "#42a139" }}>MongoDB</span>
-              <span style={{ background: "#008aad" }}>Docker</span>
-              <span style={{ background: "#6d6d6d" }}>GCP</span>
-              <span style={{ background: "#252e3c" }}>AWS</span>
-              <span style={{ background: "#30302f" }}>{"SPA & SSR"}</span>
-              <span style={{ background: "#c02f2a" }}>Redis</span>
-              <span style={{ background: "#c81753" }}>Testing</span>
-              <span style={{ background: "#f0c21c" }}>{"CI & CD"}</span>
-              <span style={{ background: "#5cbb6e" }}>
-                {"Web Performance & Security"}
-              </span>
-              <span style={{ background: "#e94e31" }}>Git</span>
-              <span style={{ background: "#092954" }}>Native English</span>
-              <span style={{ background: "#0d090b" }}>Technical Writing</span>
-              <span style={{ background: "#35a6c2" }}>
-                {"Collaboration & Teamwork"}
-              </span>
+              <Stacks stack="javascript" />
+              <Stacks stack="React" />
+              <Stacks stack="Redux" />
+              <Stacks stack="Sass" />
+              <Stacks stack="TypeScript" />
+              <Stacks stack="Next" />
+              <Stacks stack="gatsby" />
+              <Stacks stack="Node" />
+              <Stacks stack="Express" />
+              <Stacks stack="ci_cd" />
+              <Stacks stack="Redis" />
+              <Stacks stack="MongoDB" />
+              <Stacks stack="pg" />
+              <Stacks stack="knex" />
+              <Stacks stack="TDD" />
+              <Stacks stack="Docker" />
+              <Stacks stack="gcp" />
+              <Stacks stack="AWS" />
+              <Stacks stack="spa_ssr" />
+              <Stacks stack="MicroServices" />
+              <Stacks stack="Git" />
+              <Stacks stack="web" />
+              <Stacks stack="English" />
+              <Stacks stack="Writing" />
+              <Stacks stack="Teamwork" />
             </div>
           </div>
         </main>
