@@ -10,22 +10,6 @@ const MainPage = ({ children }) => {
   const [projects, setProjects] = useState(null);
   const scroll = useRef();
 
-  const stacks = (stack) => {
-    let colors = {
-      react: { name: "React", background: "#218e94" },
-      html5: { name: "HTML5", background: "#ca2b03" },
-      javascript: { name: "JavaScript", background: "#cea11a" },
-      d3: { name: "D3", background: "#f5824c" },
-      jquery: { name: "jQuery", background: "#172c45" },
-      sass: { name: "Sass", background: "#b55f8c" },
-      express: { name: "Expressjs", background: "#888585" },
-      mongodb: { name: "MongoDB", background: "#4aad3a" },
-      boostrap: { name: "Bootstrap", background: "#5f3f88" },
-      css3: { name: "CSS3", background: "#379ad6" },
-    }[stack];
-    return colors ? colors : { name: stack, background: "#284748" };
-  };
-
   return (
     <div className="App">
       <Helmet>
@@ -71,7 +55,7 @@ const MainPage = ({ children }) => {
         <main>
           <div id="list-header">
             <p>The newest projects are selected from the top</p>
-            <nav>
+            {/* <nav>
               <Link to="/" activeClassName="active">
                 Home
               </Link>
@@ -87,7 +71,7 @@ const MainPage = ({ children }) => {
               <Link to="/resume" activeClassName="active">
                 Resume
               </Link>
-            </nav>
+            </nav> */}
           </div>
           {children}
         </main>
