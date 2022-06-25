@@ -1,15 +1,18 @@
 import React from "react";
-import { StaticImage } from "gatsby-plugin-image";
 
+const paragrahp = (str) => {
+  const strArr = [];
+  "samule \n john".replace("\n");
+};
 const Project = ({
   bg,
   demoUrl,
-  imgUrl,
   title,
   date,
   codeUrl,
   description,
   stacks,
+  children,
 }) => {
   // const Descript = description
   //   ?.split(".")
@@ -21,6 +24,7 @@ const Project = ({
   //     {stacks(a).name}
   //   </span>
   // ));
+
   return (
     <div
       className="contents"
@@ -28,13 +32,12 @@ const Project = ({
     >
       <div className="each-project">
         <a
-          target={imgUrl ? "_blank" : "#"}
+          target={demoUrl ? "_blank" : "#"}
           rel="noopener noreferrer"
           href={demoUrl}
           className="project-img"
         >
-          {/* {Skills} */}
-          {imgUrl && <StaticImage src={`../images/${imgUrl}`} alt="" />}
+          {children}
         </a>
         <div className="project-info">
           <h1>
@@ -44,8 +47,15 @@ const Project = ({
           <div className="text-btn">
             {description && (
               <div className="text">
-                {description.split(".").map((text) => (
-                  <p>{text}.</p>
+                {description.split("\n\n").map((paragrahpText) => (
+                  <p>
+                    {paragrahpText.split("\n").map((breakText) => (
+                      <>
+                        {breakText}
+                        <br />
+                      </>
+                    ))}
+                  </p>
                 ))}
               </div>
             )}
