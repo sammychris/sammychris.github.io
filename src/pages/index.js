@@ -1,9 +1,9 @@
 import * as React from "react";
-import { StaticImage } from "gatsby-plugin-image";
 import Project from "../components/Project";
 import Stacks from "../components/Stacks";
 import "./index.css";
 import MainPage from "../components/MainPage";
+import QueryImage from "../components/QueryImage";
 
 const IndexPage = () => {
   return (
@@ -26,7 +26,7 @@ const IndexPage = () => {
           <Stacks stack="gcp" index={5} />
           <Stacks stack="web" index={6} />
           <Stacks stack="docker" index={7} />
-          <StaticImage src="../images/360soccerconnect.png" alt="" />
+          <QueryImage name="360soccerconnect" />
         </Project>
 
         <Project
@@ -34,6 +34,8 @@ const IndexPage = () => {
           date=""
           demoUrl="https:/oneuptime.com/"
           codeUrl="https:/github.com/OneUptime/oneuptime"
+          imgName="oneuptime"
+          stacks="react, typescript, mongodb, helment, jest, docker"
           description={`OneUptime is an open-source complete SRE and DevOps platform.
           
           I was able to participate in this project, by writing a complete test for all the pages in the app using helmet and jest`}
@@ -41,17 +43,17 @@ const IndexPage = () => {
           <Stacks stack="react" index={0} />
           <Stacks stack="typescript" index={1} />
           <Stacks stack="mongodb" index={2} />
-          <Stacks stack="helmet" index={3} />
+          <Stacks stack="helment" index={3} />
           <Stacks stack="jest" index={4} />
-          <Stacks stack="docker" index={5} />
-          <StaticImage src="../images/oneuptime.png" alt="" />
+          <Stacks stack="gdockercp" index={5} />
+          <QueryImage name="oneuptime" />
         </Project>
 
         <Project
           title="Smart Brain"
           date=""
           bg={true}
-          demoUrl="https:/sammychris.github.io/smart-brain"
+          demoUrl="https://sammychris.github.io/smart-brain"
           codeUrl="https://github.com/sammychris/smart-brain"
           description={`This app detects the faces of people on images. 
           
@@ -60,13 +62,13 @@ const IndexPage = () => {
           <Stacks stack="javascript" index={0} />
           <Stacks stack="react" index={1} />
           <Stacks stack="tachyons" index={2} />
-          <StaticImage src="../images/pending_project.png" alt="" />
+          <QueryImage name="pending_project" alt="" />
         </Project>
 
         <Project
           title="Smart Brain Api"
           date=""
-          demoUrl="https:/sammychris.github.io/smart-brain-api"
+          demoUrl="https://sammychris.github.io/smart-brain-api"
           codeUrl="https://github.com/sammychris/smart-brain-api"
           description="Serves as the Api for Smart brain app. This uses the Clarifai API along side the right credentials to connect Clarifai."
         >
@@ -74,13 +76,13 @@ const IndexPage = () => {
           <Stacks stack="authentication" index={1} />
           <Stacks stack="pg" index={2} />
           <Stacks stack="knex" index={3} />
-          <StaticImage src="../images/pending_project.png" alt="" />
+          <QueryImage name="pending_project" alt="" />
         </Project>
 
         <Project
           title="RoboFriends"
           date=""
-          demoUrl="https:/sammychris.github.io/robofriends/"
+          demoUrl="https://sammychris.github.io/robofriends/"
           codeUrl="https://github.com/sammychris/robofriends"
           description={`This project was created for learning purpose, while on my path of becoming senior developer.
           It's an App that displays random robot pictures using Api.
@@ -95,14 +97,14 @@ const IndexPage = () => {
           <Stacks stack="typescript" index={3} />
           <Stacks stack="jest" index={4} />
           <Stacks stack="enzymes" index={5} />
-          <StaticImage src="../images/robofriends.png" alt="" />
+          <QueryImage name="robofriends" alt="" />
         </Project>
 
         <Project
           title="Pomodoro Clock"
           date=""
           bg={true}
-          demoUrl="https:/sammychris.github.io/pomodoro-clock/"
+          demoUrl="https://sammychris.github.io/pomodoro-clock/"
           codeUrl="https://github.com/sammychris/pomodoro-clock"
           description={`A simple app that tracks session and break time, and sets a count-down timer to track both times. You click the big play button displayed on the screen to get started. And both session and break timer can be adjusted using their buttons.
           
@@ -114,13 +116,13 @@ const IndexPage = () => {
           <Stacks stack="typescript" index={3} />
           <Stacks stack="jest" index={4} />
           <Stacks stack="enzymes" index={5} />
-          <StaticImage src="../images/pomodoro-timer" alt="" />
+          <QueryImage name="pomodoro-timer" alt="" />
         </Project>
 
         <Project
           title="JavaScript Calculator"
           date=""
-          demoUrl="https:/sammychris.github.io/calculator/"
+          demoUrl="https://sammychris.github.io/calculator/"
           codeUrl="https://github.com/sammychris/calculator"
           description={`A Calculator App created for FreeCodeCamp back then. It contains buttons for inputs values, you can add, subtract, divide,and multiply after total evaluated calculations.
           Just recently updated and upgraded.
@@ -134,7 +136,7 @@ const IndexPage = () => {
           <Stacks stack="typescript" index={4} />
           <Stacks stack="jest" index={5} />
           <Stacks stack="enzymes" index={6} />
-          <StaticImage src="../images/calculator" alt="" />
+          <QueryImage name="calculator" alt="" />
         </Project>
 
         <Project
@@ -154,14 +156,14 @@ const IndexPage = () => {
           <Stacks stack="typescript" index={4} />
           <Stacks stack="jest" index={5} />
           <Stacks stack="enzymes" index={6} />
-          <StaticImage src="../images/drum-machine" alt="" />
+          <QueryImage name="drum-machine" alt="" />
         </Project>
 
         <Project
           title="Keiko Corp"
           date="2022"
           bg={true}
-          demoUrl="https:/sammychris.github.io/keiko-corp/"
+          demoUrl="https://sammychris.github.io/keiko-corp/"
           codeUrl="https://github.com/sammychris/keiko-corp"
           description={`A simple static Html, Css and Javascript project, that display simple static webpages.
           I got involve with this project when I enrol for a Junior to Senior Developer Road Map on Udemy.
@@ -172,7 +174,7 @@ const IndexPage = () => {
           <Stacks stack="html5" index={0} />
           <Stacks stack="css3" index={1} />
           <Stacks stack="javascript" index={2} />
-          <StaticImage src="../images/keiko-corp.png" alt="" />
+          <QueryImage name="keiko-corp" alt="" />
         </Project>
 
         <Project
@@ -188,14 +190,14 @@ const IndexPage = () => {
         >
           <Stacks stack="html5" index={0} />
           <Stacks stack="css3" index={1} />
-          <StaticImage src="../images/landing-page" alt="" />
+          <QueryImage name="landing-page" alt="" />
         </Project>
 
         <Project
           title="Journal App"
           date=""
           bg={true}
-          // demoUrl="https:/sammychris.github.io/Journal-App/"
+          // demoUrl="https://sammychris.github.io/Journal-App/"
           codeUrl="https://github.com/sammychris/Journal-App"
           description={`A full-stack chingu voyage prework project.
           This app allows users to share their journal to other users for the to see and read.
@@ -208,27 +210,27 @@ const IndexPage = () => {
           <Stacks stack="express" index={3} />
           <Stacks stack="mongoose" index={4} />
           <Stacks stack="authentication" index={5} />
-          <StaticImage src="../images/pending_project.png" alt="" />
+          <QueryImage name="pending_project" alt="" />
         </Project>
 
         <Project
           title="React Patterns"
           date=""
-          // demoUrl="https:/sammychris.github.io/Technical-Documentation-Page/"
+          // demoUrl="https://sammychris.github.io/Technical-Documentation-Page/"
           codeUrl="https://github.com/sammychris/react-patterns"
           description={`A project I created while learning more about React patterns and use cases.
           
           Learning Purpose: Higher order component, Presentation and Container component, and React custom Hooks`}
         >
           <Stacks stack="react" index={0} />
-          <StaticImage src="../images/pending_project.png" alt="" />
+          <QueryImage name="pending_project" alt="" />
         </Project>
 
         <Project
           title="Todo Lists"
           date=""
           bg={true}
-          // demoUrl="https:/sammychris.github.io/todo-list/"
+          // demoUrl="https://sammychris.github.io/todo-list/"
           codeUrl="https://github.com/sammychris/todo-list"
           description={`A front-end project I created while why I enrol for a senior developer programm.
             
@@ -241,13 +243,13 @@ const IndexPage = () => {
           <Stacks stack="typescript" index={2} />
           <Stacks stack="jest" index={3} />
           <Stacks stack="enzymes" index={4} />
-          <StaticImage src="../images/pending_project.png" alt="" />
+          <QueryImage name="pending_project" alt="" />
         </Project>
 
         <Project
           title="Funny Calculator"
           date=""
-          // demoUrl="https:/sammychris.github.io/funny-calculator/"
+          // demoUrl="https://sammychris.github.io/funny-calculator/"
           codeUrl="https://github.com/sammychris/funny-calculator"
           description={`A front-end project I created to upgrade my skills. Also with well written testcases.
           
@@ -259,28 +261,28 @@ const IndexPage = () => {
           <Stacks stack="typescript" index={2} />
           <Stacks stack="jest" index={3} />
           <Stacks stack="enzymes" index={4} />
-          <StaticImage src="../images/pending_project.png" alt="" />
+          <QueryImage name="pending_project" alt="" />
         </Project>
 
         {/* <Project
           title="Hospital Record App"
           date=""
           bg={true}
-          demoUrl="https:/sammychris.github.io/Strapi-Hospital-Records-App/"
+          demoUrl="https://sammychris.github.io/Strapi-Hospital-Records-App/"
           codeUrl="https://github.com/sammychris/Strapi-Hospital-Records-App"
           description="A full-stack project created using next and strapi-api"
         >
           <Stacks stack="react" index={0} />
           <Stacks stack="next" index={1} />
           <Stacks stack="strapi-Api" index={2} />
-          <StaticImage src="../images/pending_project.png" alt="" />
+          <QueryImage name="pending_project" alt="" />
         </Project> */}
 
         <Project
           title="Jakas Autoparts"
           date=""
           bg={true}
-          demoUrl="https:/sammychris.github.io/Jakaz-autoparts/"
+          demoUrl="https://sammychris.github.io/Jakaz-autoparts/"
           codeUrl="https://github.com/sammychris/Jakaz-autoparts"
           description="A full-stack project I created for a client. This app help list the client autopart product. The app is semilar to an e-commerce platform."
         >
@@ -289,13 +291,13 @@ const IndexPage = () => {
           <Stacks stack="express" index={2} />
           <Stacks stack="mysql" index={3} />
           <Stacks stack="authentication" index={4} />
-          <StaticImage src="../images/pending_project.png" alt="" />
+          <QueryImage name="pending_project" alt="" />
         </Project>
 
         {/* <Project
           title="Issue Tracker"
           date=""
-          demoUrl="https:/sammychris.github.io/issue-tracker /"
+          demoUrl="https://sammychris.github.io/issue-tracker /"
           codeUrl="https://github.com/sammychris/issue-tracker "
           description="This is a project I built while learning with freeCodeCamp. It was an amazing experience"
         >
@@ -303,18 +305,19 @@ const IndexPage = () => {
           <Stacks stack="css3" index={1} />
           <Stacks stack="node" index={2} />
           <Stacks stack="express" index={3} />
-          <StaticImage src="../images/pending_project.png" alt="" />
+          <QueryImage name="pending_project" alt="" />
         </Project> */}
 
         <Project
           title="Hello Books"
           date="2017"
           bg={true}
-          demoUrl="https:/sammychris.github.io/hellobooks/"
+          demoUrl="https://sammychris.github.io/hellobooks/"
           codeUrl="https://github.com/sammychris/hellobooks"
           description={`A full-stack Andela two-weeks bootcamp project.
           We were ask to make a book library app, that allows users to borrow,
           read, and return a borrowed book. And admin can upload, update and delete a book.
+          
           This was my first Full-Stack project, and my first time of using React, Node, Git, and Github.`}
         >
           <Stacks stack="react" index={0} />
@@ -323,22 +326,20 @@ const IndexPage = () => {
           <Stacks stack="authentication" index={3} />
           <Stacks stack="mocha" index={4} />
           <Stacks stack="chai" index={5} />
-          <StaticImage src="../images/hellobooks.png" alt="" />
+          <QueryImage name="hellobooks" alt="" />
         </Project>
 
         <Project
           title="Anon Message Board"
           date=""
-          demoUrl="https:/sammychris.github.io/fcc-message-board/"
+          demoUrl="https://sammychris-fcc-message-board.glitch.me/"
           codeUrl="https://github.com/sammychris/fcc-message-board"
-          description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
-					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
-					The design is similar to that of FCC Js-Techinical-Documentation-page, which is amazing."
+          description=""
         >
           <Stacks stack="html5" index={0} />
           <Stacks stack="css3" index={1} />
           <Stacks stack="javascript" index={2} />
-          <StaticImage src="../images/anon-message-board" alt="" />
+          <QueryImage name="anon-message-board" alt="" />
         </Project>
 
         <Project
@@ -354,13 +355,13 @@ const IndexPage = () => {
           <Stacks stack="html5" index={0} />
           <Stacks stack="css3" index={1} />
           <Stacks stack="javascript" index={2} />
-          <StaticImage src="../images/d3-heat-map" alt="" />
+          <QueryImage name="d3-heat-map" alt="" />
         </Project>
 
         <Project
           title="Scatter Plot"
           date=""
-          demoUrl="https:/sammychris.github.io/d3-scatter-plot/"
+          demoUrl="https://sammychris.github.io/d3-scatter-plot/"
           codeUrl="https://github.com/sammychris/d3-scatter-plot"
           description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
 					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
@@ -369,14 +370,14 @@ const IndexPage = () => {
           <Stacks stack="html5" index={0} />
           <Stacks stack="css3" index={1} />
           <Stacks stack="javascript" index={2} />
-          <StaticImage src="../images/d3-scatter-plot" alt="" />
+          <QueryImage name="d3-scatter-plot" alt="" />
         </Project>
 
         <Project
           title="Choropleth Map"
           date=""
           bg={true}
-          demoUrl="https:/sammychris.github.io/d3-choropleth-map/"
+          demoUrl="https://sammychris.github.io/d3-choropleth-map/"
           codeUrl="https://github.com/sammychris/d3-choropleth-map"
           description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
 					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
@@ -385,13 +386,13 @@ const IndexPage = () => {
           <Stacks stack="html5" index={0} />
           <Stacks stack="css3" index={1} />
           <Stacks stack="javascript" index={2} />
-          <StaticImage src="../images/d3-choropleth-map" alt="" />
+          <QueryImage name="d3-choropleth-map" alt="" />
         </Project>
 
         <Project
           title="Tree Map"
           date=""
-          demoUrl="https:/sammychris.github.io/d3-tree-map"
+          demoUrl="https://sammychris.github.io/d3-tree-map"
           codeUrl="https://github.com/sammychris/d3-tree-map"
           description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
 					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
@@ -400,14 +401,14 @@ const IndexPage = () => {
           <Stacks stack="html5" index={0} />
           <Stacks stack="css3" index={1} />
           <Stacks stack="javascript" index={2} />
-          <StaticImage src="../images/d3-tree-map" alt="" />
+          <QueryImage name="d3-tree-map" alt="" />
         </Project>
 
         <Project
           title="Bar Chart"
           date=""
           bg={true}
-          demoUrl="https:/sammychris.github.io/d3-barchart/"
+          demoUrl="https://sammychris.github.io/d3-barchart/"
           codeUrl="https://github.com/sammychris/d3-barchart"
           description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
 					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
@@ -416,7 +417,7 @@ const IndexPage = () => {
           <Stacks stack="html5" index={0} />
           <Stacks stack="css3" index={1} />
           <Stacks stack="javascript" index={2} />
-          <StaticImage src="../images/d3-barchart" alt="" />
+          <QueryImage name="d3-barchart" alt="" />
         </Project>
 
         <Project
@@ -432,13 +433,13 @@ const IndexPage = () => {
           <Stacks stack="html5" index={0} />
           <Stacks stack="css3" index={1} />
           <Stacks stack="javascript" index={2} />
-          <StaticImage src="../images/habit-tracker" alt="" />
+          <QueryImage name="habit-tracker" alt="" />
         </Project>
 
         <Project
           title="Maintenance Tracker"
           date=""
-          demoUrl="https:/sammychris.github.io/MaintenanceTracker/"
+          demoUrl="https://sammychris.github.io/MaintenanceTracker/"
           codeUrl="https://github.com/sammychris/MaintenanceTracker"
           description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
 					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
@@ -447,7 +448,7 @@ const IndexPage = () => {
           <Stacks stack="html5" index={0} />
           <Stacks stack="css3" index={1} />
           <Stacks stack="javascript" index={2} />
-          <StaticImage src="../images/maintenance-tracker" alt="" />
+          <QueryImage name="maintenance-tracker" alt="" />
         </Project>
 
         <Project
@@ -464,7 +465,7 @@ const IndexPage = () => {
           <Stacks stack="html5" index={0} />
           <Stacks stack="css3" index={1} />
           <Stacks stack="javascript" index={2} />
-          <StaticImage src="../images/meteorite-explorer" alt="" />
+          <QueryImage name="meteorite-explorer" alt="" />
         </Project>
 
         <Project
@@ -483,7 +484,7 @@ const IndexPage = () => {
           <Stacks stack="javascript" index={2} />
           <Stacks stack="express" index={3} />
           <Stacks stack="node" index={4} />
-          <StaticImage src="../images/metric-imperial-converter" alt="" />
+          <QueryImage name="metric-imperial-converter" alt="" />
         </Project>
 
         <Project
@@ -497,7 +498,7 @@ const IndexPage = () => {
           <Stacks stack="javascript" index={0} />
           <Stacks stack="react" index={1} />
           <Stacks stack="sass" index={2} />
-          <StaticImage src="../images/random-quote-machine" alt="" />
+          <QueryImage name="random-quote-machine" alt="" />
         </Project>
 
         <Project
@@ -510,14 +511,14 @@ const IndexPage = () => {
         >
           <Stacks stack="html5" index={0} />
           <Stacks stack="css3" index={1} />
-          <StaticImage src="../images/survey-form" alt="" />
+          <QueryImage name="survey-form" alt="" />
         </Project>
 
         <Project
           title="Stock Price Checker"
           date=""
           bg={true}
-          demoUrl="https:/sammychris.github.io/project-stock-checker/"
+          demoUrl="https://sammychris.github.io/project-stock-checker/"
           codeUrl="https://github.com/sammychris/project-stock-checker"
           description={`Stock price checker app. A project I created while learning on FreeCodeCamp.
           This displays the prices of latest stocks in the market using an API that helps check the price of stocks.`}
@@ -526,7 +527,7 @@ const IndexPage = () => {
           <Stacks stack="css3" index={1} />
           <Stacks stack="express" index={2} />
           <Stacks stack="node" index={3} />
-          <StaticImage src="../images/stock-price-checker" alt="" />
+          <QueryImage name="stock-price-checker" alt="" />
         </Project>
 
         <Project
@@ -539,7 +540,7 @@ const IndexPage = () => {
           <Stacks stack="javascript" index={0} />
           <Stacks stack="react" index={1} />
           <Stacks stack="sass" index={2} />
-          <StaticImage src="../images/markdown-previewer" alt="" />
+          <QueryImage name="markdown-previewer" alt="" />
         </Project>
 
         <Project
@@ -556,7 +557,7 @@ const IndexPage = () => {
         >
           <Stacks stack="html5" index={0} />
           <Stacks stack="css3" index={1} />
-          <StaticImage src="../images/simple-portfolio" alt="" />
+          <QueryImage name="simple-portfolio" alt="" />
         </Project>
 
         <Project
@@ -569,11 +570,11 @@ const IndexPage = () => {
         >
           <Stacks stack="html5" index={0} />
           <Stacks stack="css3" index={1} />
-          <StaticImage src="../images/tribute-page" alt="" />
+          <QueryImage name="tribute-page" alt="" />
         </Project>
 
         <Project
-          demoUrl="https:/sammychris.github.io/Technical-Documentation-Page/"
+          demoUrl="https://sammychris.github.io/Technical-Documentation-Page/"
           title="JavaScript Documentation"
           date=""
           bg={true}
@@ -584,7 +585,7 @@ const IndexPage = () => {
         >
           <Stacks stack="html5" index={0} />
           <Stacks stack="css3" index={1} />
-          <StaticImage src="../images/documentation-page" alt="" />
+          <QueryImage name="documentation-page" alt="" />
         </Project>
       </div>
     </MainPage>

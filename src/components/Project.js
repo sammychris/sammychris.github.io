@@ -1,9 +1,7 @@
 import React from "react";
+import QueryImage from "./QueryImage";
+import Stacks from "./Stacks";
 
-const paragrahp = (str) => {
-  const strArr = [];
-  "samule \n john".replace("\n");
-};
 const Project = ({
   bg,
   demoUrl,
@@ -12,19 +10,10 @@ const Project = ({
   codeUrl,
   description,
   stacks,
+  imgName,
   children,
 }) => {
-  // const Descript = description
-  //   ?.split(".")
-  //   .map((a) => <p>{a}.</p>);
-  // const dateStr = new Date(props?.project?.create_on).toDateString();
-
-  // const Skills = props?.project?.skills.map((a, i) => (
-  //   <span style={{ background: stacks(a).background, top: i * 30 }}>
-  //     {stacks(a).name}
-  //   </span>
-  // ));
-
+  console.log({ imgName });
   return (
     <div
       className="contents"
@@ -37,6 +26,13 @@ const Project = ({
           href={demoUrl}
           className="project-img"
         >
+          {/* {stacks
+            ?.replace(/\s/g, "")
+            ?.split(",")
+            ?.map((stack, i) => (
+              <Stacks stack={stack} index={i} key={i} />
+            ))} */}
+
           {children}
         </a>
         <div className="project-info">

@@ -1,10 +1,24 @@
 module.exports = {
-  siteMetadata: {
-    siteUrl: `https://sammychris.github.io`,
-  },
+  // siteMetadata: {
+  //   siteUrl: `https://sammychris.github.io`,
+  // },
+  // pathPrefix: "/sammychris.github.io",
   pathPrefix: "/sammychris.github.io",
+  siteMetadata: {
+    title: `SammyChris`,
+    description: `Samuel Christopher - Portfolio`,
+    author: `@sammychris`,
+    url: `https://sammychris.github.io`,
+  },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
