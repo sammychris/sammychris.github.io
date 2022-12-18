@@ -50,6 +50,141 @@ const IndexPage = () => {
         </Project>
 
         <Project
+          title="Habit Tracker"
+          date=""
+          bg={true}
+          demoUrl="https://chingu-habit-tracker.herokuapp.com/"
+          codeUrl="https://github.com/chingu-voyages/bears-project-8"
+          description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
+					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
+					The design is similar to that of FCC Js-Techinical-Documentation-page, which is amazing."
+        >
+          <Stacks stack="html5" index={0} />
+          <Stacks stack="css3" index={1} />
+          <Stacks stack="javascript" index={2} />
+          <QueryImage name="habit-tracker" alt="" />
+        </Project>
+
+        <Project
+          title="Maintenance Tracker"
+          date=""
+          demoUrl="https://sammychris.github.io/MaintenanceTracker/"
+          codeUrl="https://github.com/sammychris/MaintenanceTracker"
+          description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
+					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
+					The design is similar to that of FCC Js-Techinical-Documentation-page, which is amazing."
+        >
+          <Stacks stack="html5" index={0} />
+          <Stacks stack="css3" index={1} />
+          <Stacks stack="javascript" index={2} />
+          <QueryImage name="maintenance-tracker" alt="" />
+        </Project>
+
+
+        <Project
+          title="Hello Books"
+          date="2017"
+          bg={true}
+          demoUrl="https://sammychris.github.io/hellobooks/"
+          codeUrl="https://github.com/sammychris/hellobooks"
+          description={`A full-stack Andela two-weeks bootcamp project.
+          We were ask to make a book library app, that allows users to borrow,
+          read, and return a borrowed book. And admin can upload, update and delete a book.
+          
+          This was my first Full-Stack project, and my first time of using React, Node, Git, and Github.`}
+        >
+          <Stacks stack="react" index={0} />
+          <Stacks stack="redux" index={1} />
+          <Stacks stack="express" index={2} />
+          <Stacks stack="authentication" index={3} />
+          <Stacks stack="mocha" index={4} />
+          <Stacks stack="chai" index={5} />
+          <QueryImage name="hellobooks" alt="" />
+        </Project>
+
+
+        
+        <Project
+          title="Heat Map"
+          date=""
+          bg={true}
+          demoUrl="https://sammychris.github.io/d3-heat-map"
+          codeUrl="https://github.com/sammychris/d3-heat-map"
+          description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
+					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
+					The design is similar to that of FCC Js-Techinical-Documentation-page, which is amazing."
+        >
+          <Stacks stack="html5" index={0} />
+          <Stacks stack="css3" index={1} />
+          <Stacks stack="javascript" index={2} />
+          <QueryImage name="d3-heat-map" alt="" />
+        </Project>
+
+        <Project
+          title="Scatter Plot"
+          date=""
+          demoUrl="https://sammychris.github.io/d3-scatter-plot/"
+          codeUrl="https://github.com/sammychris/d3-scatter-plot"
+          description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
+					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
+					The design is similar to that of FCC Js-Techinical-Documentation-page, which is amazing."
+        >
+          <Stacks stack="html5" index={0} />
+          <Stacks stack="css3" index={1} />
+          <Stacks stack="javascript" index={2} />
+          <QueryImage name="d3-scatter-plot" alt="" />
+        </Project>
+
+        <Project
+          title="Choropleth Map"
+          date=""
+          bg={true}
+          demoUrl="https://sammychris.github.io/d3-choropleth-map/"
+          codeUrl="https://github.com/sammychris/d3-choropleth-map"
+          description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
+					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
+					The design is similar to that of FCC Js-Techinical-Documentation-page, which is amazing."
+        >
+          <Stacks stack="html5" index={0} />
+          <Stacks stack="css3" index={1} />
+          <Stacks stack="javascript" index={2} />
+          <QueryImage name="d3-choropleth-map" alt="" />
+        </Project>
+
+        <Project
+          title="Tree Map"
+          date=""
+          demoUrl="https://sammychris.github.io/d3-tree-map"
+          codeUrl="https://github.com/sammychris/d3-tree-map"
+          description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
+					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
+					The design is similar to that of FCC Js-Techinical-Documentation-page, which is amazing."
+        >
+          <Stacks stack="html5" index={0} />
+          <Stacks stack="css3" index={1} />
+          <Stacks stack="javascript" index={2} />
+          <QueryImage name="d3-tree-map" alt="" />
+        </Project>
+
+        <Project
+          title="Bar Chart"
+          date=""
+          bg={true}
+          demoUrl="https://sammychris.github.io/d3-barchart/"
+          codeUrl="https://github.com/sammychris/d3-barchart"
+          description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
+					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
+					The design is similar to that of FCC Js-Techinical-Documentation-page, which is amazing."
+        >
+          <Stacks stack="html5" index={0} />
+          <Stacks stack="css3" index={1} />
+          <Stacks stack="javascript" index={2} />
+          <QueryImage name="d3-barchart" alt="" />
+        </Project>
+
+
+
+        {/* <Project
           title="Smart Brain"
           date=""
           bg={true}
@@ -77,7 +212,7 @@ const IndexPage = () => {
           <Stacks stack="pg" index={2} />
           <Stacks stack="knex" index={3} />
           <QueryImage name="pending_project" alt="" />
-        </Project>
+        </Project> */}
 
         <Project
           title="RoboFriends"
@@ -193,7 +328,7 @@ const IndexPage = () => {
           <QueryImage name="landing-page" alt="" />
         </Project>
 
-        <Project
+        {/* <Project
           title="Journal App"
           date=""
           bg={true}
@@ -262,7 +397,7 @@ const IndexPage = () => {
           <Stacks stack="jest" index={3} />
           <Stacks stack="enzymes" index={4} />
           <QueryImage name="pending_project" alt="" />
-        </Project>
+        </Project> */}
 
         {/* <Project
           title="Hospital Record App"
@@ -278,7 +413,7 @@ const IndexPage = () => {
           <QueryImage name="pending_project" alt="" />
         </Project> */}
 
-        <Project
+        {/* <Project
           title="Jakas Autoparts"
           date=""
           bg={true}
@@ -292,7 +427,7 @@ const IndexPage = () => {
           <Stacks stack="mysql" index={3} />
           <Stacks stack="authentication" index={4} />
           <QueryImage name="pending_project" alt="" />
-        </Project>
+        </Project> */}
 
         {/* <Project
           title="Issue Tracker"
@@ -308,26 +443,6 @@ const IndexPage = () => {
           <QueryImage name="pending_project" alt="" />
         </Project> */}
 
-        <Project
-          title="Hello Books"
-          date="2017"
-          bg={true}
-          demoUrl="https://sammychris.github.io/hellobooks/"
-          codeUrl="https://github.com/sammychris/hellobooks"
-          description={`A full-stack Andela two-weeks bootcamp project.
-          We were ask to make a book library app, that allows users to borrow,
-          read, and return a borrowed book. And admin can upload, update and delete a book.
-          
-          This was my first Full-Stack project, and my first time of using React, Node, Git, and Github.`}
-        >
-          <Stacks stack="react" index={0} />
-          <Stacks stack="redux" index={1} />
-          <Stacks stack="express" index={2} />
-          <Stacks stack="authentication" index={3} />
-          <Stacks stack="mocha" index={4} />
-          <Stacks stack="chai" index={5} />
-          <QueryImage name="hellobooks" alt="" />
-        </Project>
 
         <Project
           title="Anon Message Board"
@@ -342,114 +457,6 @@ const IndexPage = () => {
           <QueryImage name="anon-message-board" alt="" />
         </Project>
 
-        <Project
-          title="Heat Map"
-          date=""
-          bg={true}
-          demoUrl="https://sammychris.github.io/d3-heat-map"
-          codeUrl="https://github.com/sammychris/d3-heat-map"
-          description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
-					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
-					The design is similar to that of FCC Js-Techinical-Documentation-page, which is amazing."
-        >
-          <Stacks stack="html5" index={0} />
-          <Stacks stack="css3" index={1} />
-          <Stacks stack="javascript" index={2} />
-          <QueryImage name="d3-heat-map" alt="" />
-        </Project>
-
-        <Project
-          title="Scatter Plot"
-          date=""
-          demoUrl="https://sammychris.github.io/d3-scatter-plot/"
-          codeUrl="https://github.com/sammychris/d3-scatter-plot"
-          description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
-					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
-					The design is similar to that of FCC Js-Techinical-Documentation-page, which is amazing."
-        >
-          <Stacks stack="html5" index={0} />
-          <Stacks stack="css3" index={1} />
-          <Stacks stack="javascript" index={2} />
-          <QueryImage name="d3-scatter-plot" alt="" />
-        </Project>
-
-        <Project
-          title="Choropleth Map"
-          date=""
-          bg={true}
-          demoUrl="https://sammychris.github.io/d3-choropleth-map/"
-          codeUrl="https://github.com/sammychris/d3-choropleth-map"
-          description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
-					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
-					The design is similar to that of FCC Js-Techinical-Documentation-page, which is amazing."
-        >
-          <Stacks stack="html5" index={0} />
-          <Stacks stack="css3" index={1} />
-          <Stacks stack="javascript" index={2} />
-          <QueryImage name="d3-choropleth-map" alt="" />
-        </Project>
-
-        <Project
-          title="Tree Map"
-          date=""
-          demoUrl="https://sammychris.github.io/d3-tree-map"
-          codeUrl="https://github.com/sammychris/d3-tree-map"
-          description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
-					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
-					The design is similar to that of FCC Js-Techinical-Documentation-page, which is amazing."
-        >
-          <Stacks stack="html5" index={0} />
-          <Stacks stack="css3" index={1} />
-          <Stacks stack="javascript" index={2} />
-          <QueryImage name="d3-tree-map" alt="" />
-        </Project>
-
-        <Project
-          title="Bar Chart"
-          date=""
-          bg={true}
-          demoUrl="https://sammychris.github.io/d3-barchart/"
-          codeUrl="https://github.com/sammychris/d3-barchart"
-          description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
-					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
-					The design is similar to that of FCC Js-Techinical-Documentation-page, which is amazing."
-        >
-          <Stacks stack="html5" index={0} />
-          <Stacks stack="css3" index={1} />
-          <Stacks stack="javascript" index={2} />
-          <QueryImage name="d3-barchart" alt="" />
-        </Project>
-
-        <Project
-          title="Habit Tracker"
-          date=""
-          bg={true}
-          demoUrl="https://chingu-habit-tracker.herokuapp.com/"
-          codeUrl="https://github.com/chingu-voyages/bears-project-8"
-          description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
-					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
-					The design is similar to that of FCC Js-Techinical-Documentation-page, which is amazing."
-        >
-          <Stacks stack="html5" index={0} />
-          <Stacks stack="css3" index={1} />
-          <Stacks stack="javascript" index={2} />
-          <QueryImage name="habit-tracker" alt="" />
-        </Project>
-
-        <Project
-          title="Maintenance Tracker"
-          date=""
-          demoUrl="https://sammychris.github.io/MaintenanceTracker/"
-          codeUrl="https://github.com/sammychris/MaintenanceTracker"
-          description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
-					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
-					The design is similar to that of FCC Js-Techinical-Documentation-page, which is amazing."
-        >
-          <Stacks stack="html5" index={0} />
-          <Stacks stack="css3" index={1} />
-          <Stacks stack="javascript" index={2} />
-          <QueryImage name="maintenance-tracker" alt="" />
-        </Project>
 
         <Project
           title="Meteorite Explorer"
