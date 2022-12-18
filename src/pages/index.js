@@ -32,8 +32,8 @@ const IndexPage = () => {
         <Project
           title="Oneuptime"
           date=""
-          demoUrl="https:/oneuptime.com/"
-          codeUrl="https:/github.com/OneUptime/oneuptime"
+          demoUrl="https://oneuptime.com/"
+          codeUrl="https://github.com/OneUptime/oneuptime"
           imgName="oneuptime"
           stacks="react, typescript, mongodb, helment, jest, docker"
           description={`OneUptime is an open-source complete SRE and DevOps platform.
