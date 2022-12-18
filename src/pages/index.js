@@ -55,9 +55,9 @@ const IndexPage = () => {
           bg={true}
           demoUrl="https://chingu-habit-tracker.herokuapp.com/"
           codeUrl="https://github.com/chingu-voyages/bears-project-8"
-          description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
-					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
-					The design is similar to that of FCC Js-Techinical-Documentation-page, which is amazing."
+          description={`An application that helps users track and maintain habits, such as exercising, eating healthy, or practicing a new skill.
+          
+          This app allows users to set goals and create a schedule for their habits, reminders, motivation, and analytics to help users stay on track and reach their goals. I worked with some group developers. I worked on both front, backend and designs using figma`}
         >
           <Stacks stack="html5" index={0} />
           <Stacks stack="css3" index={1} />
@@ -70,9 +70,9 @@ const IndexPage = () => {
           date=""
           demoUrl="https://sammychris.github.io/MaintenanceTracker/"
           codeUrl="https://github.com/sammychris/MaintenanceTracker"
-          description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
-					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
-					The design is similar to that of FCC Js-Techinical-Documentation-page, which is amazing."
+          description={`A maintenance tracker tool that helps individuals or organizations track and manage the maintenance and repair of physical assets or equipment. 
+          
+          It is typically used to schedule, record, and track the maintenance and repair work that is performed on various assets, such as vehicles, machinery, or facilities.`}
         >
           <Stacks stack="html5" index={0} />
           <Stacks stack="css3" index={1} />
@@ -88,7 +88,7 @@ const IndexPage = () => {
           demoUrl="https://sammychris.github.io/hellobooks/"
           codeUrl="https://github.com/sammychris/hellobooks"
           description={`A full-stack Andela two-weeks bootcamp project.
-          We were ask to make a book library app, that allows users to borrow,
+          A book library app, that allows users to borrow,
           read, and return a borrowed book. And admin can upload, update and delete a book.
           
           This was my first Full-Stack project, and my first time of using React, Node, Git, and Github.`}
@@ -110,9 +110,9 @@ const IndexPage = () => {
           bg={true}
           demoUrl="https://sammychris.github.io/d3-heat-map"
           codeUrl="https://github.com/sammychris/d3-heat-map"
-          description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
-					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
-					The design is similar to that of FCC Js-Techinical-Documentation-page, which is amazing."
+          description={`A heat map built with d3 that displays the monthly global land-surface temperature from 1753 to 2015 can be a useful tool for understanding and analyzing long-term temperature trends and patterns. 
+          
+          The heat map can show the differences in temperature between different months and years, as well as the overall changes in temperature over time.`}
         >
           <Stacks stack="html5" index={0} />
           <Stacks stack="css3" index={1} />
@@ -125,9 +125,9 @@ const IndexPage = () => {
           date=""
           demoUrl="https://sammychris.github.io/d3-scatter-plot/"
           codeUrl="https://github.com/sammychris/d3-scatter-plot"
-          description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
-					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
-					The design is similar to that of FCC Js-Techinical-Documentation-page, which is amazing."
+          description={`A scatter plot built with d3 that displays the doping in professional bicycle racing could be a graphical representation of data that shows the relationship between two variables, with one variable represented on the x-axis and the other represented on the y-axis.
+          
+          The scatter plot use different colors to distinguish between riders who have been implicated in doping and those who have not.`}
         >
           <Stacks stack="html5" index={0} />
           <Stacks stack="css3" index={1} />
@@ -141,9 +141,9 @@ const IndexPage = () => {
           bg={true}
           demoUrl="https://sammychris.github.io/d3-choropleth-map/"
           codeUrl="https://github.com/sammychris/d3-choropleth-map"
-          description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
-					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
-					The design is similar to that of FCC Js-Techinical-Documentation-page, which is amazing."
+          description={`A choropleth map built with d3 that displays the percentage of adults age 25 and older with a bachelor's degree or higher would show different colors to represent the different levels of educational attainment within a specific geographic region.
+        A
+          Qreas with a high percentage of adults with a bachelor's degree or higher are shown in a darker blue, while areas with a lower percentage are shown in a lighter blue.`}
         >
           <Stacks stack="html5" index={0} />
           <Stacks stack="css3" index={1} />
@@ -156,9 +156,9 @@ const IndexPage = () => {
           date=""
           demoUrl="https://sammychris.github.io/d3-tree-map"
           codeUrl="https://github.com/sammychris/d3-tree-map"
-          description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
-					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
-					The design is similar to that of FCC Js-Techinical-Documentation-page, which is amazing."
+          description={`Tree Map built with d3 that displays the Top 100 Most Sold Video Games Grouped by Platform color is a visual representation of data that displays the relative size of different video game platforms in relation to one another.
+          
+          The Tree Map is organized such that the size of each platform is proportional to the total number of video games sold on that platform, and the color of each platform is determined by the platform's category.`}
         >
           <Stacks stack="html5" index={0} />
           <Stacks stack="css3" index={1} />
@@ -172,9 +172,9 @@ const IndexPage = () => {
           bg={true}
           demoUrl="https://sammychris.github.io/d3-barchart/"
           codeUrl="https://github.com/sammychris/d3-barchart"
-          description="This is a Javascript Documentation Page built by me while learning with freeCodeCamp. 
-					It has been an awesome experience for me, building well design and responsive web pages while learning with FCC. 
-					The design is similar to that of FCC Js-Techinical-Documentation-page, which is amazing."
+          description={`A bar chart built with D3 that displays the (GDP) of a country over a period of time. In this case, the bar chart would show the GDP from 1950 to 2015. The x-axis of the chart would represent the years from 1950 to 2015, and the y-axis would represent the GDP values.
+          
+          Each bar on the chart would represent the GDP for a particular year, with the height of the bar indicating the GDP value for that year. The chart would allow users to easily visualize and compare the GDP values over the specified time period.`}
         >
           <Stacks stack="html5" index={0} />
           <Stacks stack="css3" index={1} />
@@ -279,7 +279,7 @@ const IndexPage = () => {
           date=""
           demoUrl="https://sammychris.github.io/drum-machine/"
           codeUrl="https://github.com/sammychris/drum-machine"
-          description={`A Calculator App created for FreeCodeCamp back then. It contains buttons for inputs values, you can add, subtract, divide,and multiply after total evaluated calculations.
+          description={`A Drum Machine App created for FreeCodeCamp back then. It contains buttons for inputs values, and sounds via external API.
           Just recently updated and upgraded.
           
           Learning Purpose: TypeScript, Redux, Presentational and Container component, and React testing with Jest and Enzymes.`}
