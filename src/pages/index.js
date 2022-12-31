@@ -38,12 +38,12 @@ const IndexPage = () => {
           stacks="react, typescript, mongodb, helment, jest, docker"
           description={`OneUptime is an open-source complete SRE and DevOps platform.
           
-          I was able to participate in this project, by writing a complete test for all the pages in the app using helmet and jest`}
+          I was able to participate in this project, by writing a complete test for all the pages in the app using puppeteer and jest`}
         >
           <Stacks stack="react" index={0} />
           <Stacks stack="typescript" index={1} />
           <Stacks stack="mongodb" index={2} />
-          <Stacks stack="helment" index={3} />
+          <Stacks stack="puppeteer" index={3} />
           <Stacks stack="jest" index={4} />
           <Stacks stack="gdockercp" index={5} />
           <QueryImage name="oneuptime" />
@@ -80,7 +80,6 @@ const IndexPage = () => {
           <QueryImage name="maintenance-tracker" alt="" />
         </Project>
 
-
         <Project
           title="Hello Books"
           date="2017"
@@ -102,8 +101,6 @@ const IndexPage = () => {
           <QueryImage name="hellobooks" alt="" />
         </Project>
 
-
-        
         <Project
           title="Heat Map"
           date=""
@@ -133,106 +130,6 @@ const IndexPage = () => {
           <Stacks stack="css3" index={1} />
           <Stacks stack="javascript" index={2} />
           <QueryImage name="d3-scatter-plot" alt="" />
-        </Project>
-
-        <Project
-          title="Choropleth Map"
-          date=""
-          bg={true}
-          demoUrl="https://sammychris.github.io/d3-choropleth-map/"
-          codeUrl="https://github.com/sammychris/d3-choropleth-map"
-          description={`A choropleth map built with d3 that displays the percentage of adults age 25 and older with a bachelor's degree or higher would show different colors to represent the different levels of educational attainment within a specific geographic region.
-        A
-          Qreas with a high percentage of adults with a bachelor's degree or higher are shown in a darker blue, while areas with a lower percentage are shown in a lighter blue.`}
-        >
-          <Stacks stack="html5" index={0} />
-          <Stacks stack="css3" index={1} />
-          <Stacks stack="javascript" index={2} />
-          <QueryImage name="d3-choropleth-map" alt="" />
-        </Project>
-
-        <Project
-          title="Tree Map"
-          date=""
-          demoUrl="https://sammychris.github.io/d3-tree-map"
-          codeUrl="https://github.com/sammychris/d3-tree-map"
-          description={`Tree Map built with d3 that displays the Top 100 Most Sold Video Games Grouped by Platform color is a visual representation of data that displays the relative size of different video game platforms in relation to one another.
-          
-          The Tree Map is organized such that the size of each platform is proportional to the total number of video games sold on that platform, and the color of each platform is determined by the platform's category.`}
-        >
-          <Stacks stack="html5" index={0} />
-          <Stacks stack="css3" index={1} />
-          <Stacks stack="javascript" index={2} />
-          <QueryImage name="d3-tree-map" alt="" />
-        </Project>
-
-        <Project
-          title="Bar Chart"
-          date=""
-          bg={true}
-          demoUrl="https://sammychris.github.io/d3-barchart/"
-          codeUrl="https://github.com/sammychris/d3-barchart"
-          description={`A bar chart built with D3 that displays the (GDP) of a country over a period of time. In this case, the bar chart would show the GDP from 1950 to 2015. The x-axis of the chart would represent the years from 1950 to 2015, and the y-axis would represent the GDP values.
-          
-          Each bar on the chart would represent the GDP for a particular year, with the height of the bar indicating the GDP value for that year. The chart would allow users to easily visualize and compare the GDP values over the specified time period.`}
-        >
-          <Stacks stack="html5" index={0} />
-          <Stacks stack="css3" index={1} />
-          <Stacks stack="javascript" index={2} />
-          <QueryImage name="d3-barchart" alt="" />
-        </Project>
-
-
-
-        {/* <Project
-          title="Smart Brain"
-          date=""
-          bg={true}
-          demoUrl="https://sammychris.github.io/smart-brain"
-          codeUrl="https://github.com/sammychris/smart-brain"
-          description={`This app detects the faces of people on images. 
-          
-          This project was created for learning purpose, while on my path of becoming senior developer.`}
-        >
-          <Stacks stack="javascript" index={0} />
-          <Stacks stack="react" index={1} />
-          <Stacks stack="tachyons" index={2} />
-          <QueryImage name="pending_project" alt="" />
-        </Project>
-
-        <Project
-          title="Smart Brain Api"
-          date=""
-          demoUrl="https://sammychris.github.io/smart-brain-api"
-          codeUrl="https://github.com/sammychris/smart-brain-api"
-          description="Serves as the Api for Smart brain app. This uses the Clarifai API along side the right credentials to connect Clarifai."
-        >
-          <Stacks stack="express" index={0} />
-          <Stacks stack="authentication" index={1} />
-          <Stacks stack="pg" index={2} />
-          <Stacks stack="knex" index={3} />
-          <QueryImage name="pending_project" alt="" />
-        </Project> */}
-
-        <Project
-          title="RoboFriends"
-          date=""
-          demoUrl="https://sammychris.github.io/robofriends/"
-          codeUrl="https://github.com/sammychris/robofriends"
-          description={`This project was created for learning purpose, while on my path of becoming senior developer.
-          It's an App that displays random robot pictures using Api.
-          
-          Learning Purpose: TypeScript, Redux, Presentational and Container component, and React testing
-            with Jest and Enzymes.
-          `}
-        >
-          <Stacks stack="react" index={0} />
-          <Stacks stack="redux" index={1} />
-          <Stacks stack="tachyons" index={2} />
-          <Stacks stack="typescript" index={3} />
-          <Stacks stack="jest" index={4} />
-          <Stacks stack="enzymes" index={5} />
-          <QueryImage name="robofriends" alt="" />
         </Project>
 
         <Project
@@ -292,6 +189,104 @@ const IndexPage = () => {
           <Stacks stack="jest" index={5} />
           <Stacks stack="enzymes" index={6} />
           <QueryImage name="drum-machine" alt="" />
+        </Project>
+
+        <Project
+          title="Choropleth Map"
+          date=""
+          bg={true}
+          demoUrl="https://sammychris.github.io/d3-choropleth-map/"
+          codeUrl="https://github.com/sammychris/d3-choropleth-map"
+          description={`A choropleth map built with d3 that displays the percentage of adults age 25 and older with a bachelor's degree or higher would show different colors to represent the different levels of educational attainment within a specific geographic region.
+        A
+          Qreas with a high percentage of adults with a bachelor's degree or higher are shown in a darker blue, while areas with a lower percentage are shown in a lighter blue.`}
+        >
+          <Stacks stack="html5" index={0} />
+          <Stacks stack="css3" index={1} />
+          <Stacks stack="javascript" index={2} />
+          <QueryImage name="d3-choropleth-map" alt="" />
+        </Project>
+
+        <Project
+          title="Tree Map"
+          date=""
+          demoUrl="https://sammychris.github.io/d3-tree-map"
+          codeUrl="https://github.com/sammychris/d3-tree-map"
+          description={`Tree Map built with d3 that displays the Top 100 Most Sold Video Games Grouped by Platform color is a visual representation of data that displays the relative size of different video game platforms in relation to one another.
+          
+          The Tree Map is organized such that the size of each platform is proportional to the total number of video games sold on that platform, and the color of each platform is determined by the platform's category.`}
+        >
+          <Stacks stack="html5" index={0} />
+          <Stacks stack="css3" index={1} />
+          <Stacks stack="javascript" index={2} />
+          <QueryImage name="d3-tree-map" alt="" />
+        </Project>
+
+        <Project
+          title="Bar Chart"
+          date=""
+          bg={true}
+          demoUrl="https://sammychris.github.io/d3-barchart/"
+          codeUrl="https://github.com/sammychris/d3-barchart"
+          description={`A bar chart built with D3 that displays the (GDP) of a country over a period of time. In this case, the bar chart would show the GDP from 1950 to 2015. The x-axis of the chart would represent the years from 1950 to 2015, and the y-axis would represent the GDP values.
+          
+          Each bar on the chart would represent the GDP for a particular year, with the height of the bar indicating the GDP value for that year. The chart would allow users to easily visualize and compare the GDP values over the specified time period.`}
+        >
+          <Stacks stack="html5" index={0} />
+          <Stacks stack="css3" index={1} />
+          <Stacks stack="javascript" index={2} />
+          <QueryImage name="d3-barchart" alt="" />
+        </Project>
+
+        {/* <Project
+          title="Smart Brain"
+          date=""
+          bg={true}
+          demoUrl="https://sammychris.github.io/smart-brain"
+          codeUrl="https://github.com/sammychris/smart-brain"
+          description={`This app detects the faces of people on images. 
+          
+          This project was created for learning purpose, while on my path of becoming senior developer.`}
+        >
+          <Stacks stack="javascript" index={0} />
+          <Stacks stack="react" index={1} />
+          <Stacks stack="tachyons" index={2} />
+          <QueryImage name="pending_project" alt="" />
+        </Project>
+
+        <Project
+          title="Smart Brain Api"
+          date=""
+          demoUrl="https://sammychris.github.io/smart-brain-api"
+          codeUrl="https://github.com/sammychris/smart-brain-api"
+          description="Serves as the Api for Smart brain app. This uses the Clarifai API along side the right credentials to connect Clarifai."
+        >
+          <Stacks stack="express" index={0} />
+          <Stacks stack="authentication" index={1} />
+          <Stacks stack="pg" index={2} />
+          <Stacks stack="knex" index={3} />
+          <QueryImage name="pending_project" alt="" />
+        </Project> */}
+
+        <Project
+          title="RoboFriends"
+          date=""
+          demoUrl="https://sammychris.github.io/robofriends/"
+          codeUrl="https://github.com/sammychris/robofriends"
+          description={`This project was created for learning purpose, while on my path of becoming senior developer.
+          It's an App that displays random robot pictures using Api.
+          
+          Learning Purpose: TypeScript, Redux, Presentational and Container component, and React testing
+            with Jest and Enzymes.
+          `}
+        >
+          <Stacks stack="react" index={0} />
+          <Stacks stack="redux" index={1} />
+          <Stacks stack="tachyons" index={2} />
+          <Stacks stack="typescript" index={3} />
+          <Stacks stack="jest" index={4} />
+          <Stacks stack="enzymes" index={5} />
+          <QueryImage name="robofriends" alt="" />
         </Project>
 
         <Project
@@ -443,7 +438,6 @@ const IndexPage = () => {
           <QueryImage name="pending_project" alt="" />
         </Project> */}
 
-
         <Project
           title="Anon Message Board"
           date=""
@@ -456,7 +450,6 @@ const IndexPage = () => {
           <Stacks stack="javascript" index={2} />
           <QueryImage name="anon-message-board" alt="" />
         </Project>
-
 
         <Project
           title="Meteorite Explorer"

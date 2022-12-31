@@ -32,12 +32,12 @@ const ProjectsPage = () => {
           date=""
           demoUrl="https:/oneuptime.com/"
           codeUrl="https:/github.com/OneUptime/oneuptime"
-          description="OneUptime is an open-source complete SRE and DevOps platform. I was able to participate in this project, by writing a complete test for all the pages in the app using helmet and jest"
+          description="OneUptime is an open-source complete SRE and DevOps platform. I was able to participate in this project, by writing a complete test for all the pages in the app using puppeteer and jest"
         >
           <Stacks stack="react" index={0} />
           <Stacks stack="typescript" index={1} />
           <Stacks stack="mongodb" index={2} />
-          <Stacks stack="helmet" index={3} />
+          <Stacks stack="puppeteer" index={3} />
           <Stacks stack="jest" index={4} />
           <Stacks stack="docker" index={5} />
           <StaticImage src="../images/oneuptime.png" alt="" />
