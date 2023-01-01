@@ -10,6 +10,25 @@ const IndexPage = () => {
     <MainPage>
       <div id="all-projects" className="first">
         <Project
+          title="Ecommerce Frontend Challenge"
+          date=""
+          bg={true}
+          demoUrl="https://sammychris.github.io/frontend-challenge"
+          description={`A simple ecommerce App.
+          That Add/remove products and change quantities on cart page, PLP, and PDP.
+          Select product options and view them in cart overlay and cart page.
+          Filter products by category and display visual representation of swatch attributes on PLP and PDP.
+          Parse and display HTML descriptions as HTML.
+          Change store currency to one of the available options.`}
+        >
+          <Stacks stack="react" index={0} />
+          <Stacks stack="redux" index={1} />
+          <Stacks stack="style-components" index={2} />
+          <Stacks stack="graghql" index={3} />
+          <QueryImage name="ecommerce_frontend-challenge" />
+        </Project>
+
+        <Project
           title="360SoccerConnect"
           date=""
           bg={true}
@@ -50,22 +69,6 @@ const IndexPage = () => {
         </Project>
 
         <Project
-          title="Habit Tracker"
-          date=""
-          bg={true}
-          demoUrl="https://chingu-habit-tracker.herokuapp.com/"
-          codeUrl="https://github.com/chingu-voyages/bears-project-8"
-          description={`An application that helps users track and maintain habits, such as exercising, eating healthy, or practicing a new skill.
-          
-          This app allows users to set goals and create a schedule for their habits, reminders, motivation, and analytics to help users stay on track and reach their goals. I worked with some group developers. I worked on both front, backend and designs using figma`}
-        >
-          <Stacks stack="html5" index={0} />
-          <Stacks stack="css3" index={1} />
-          <Stacks stack="javascript" index={2} />
-          <QueryImage name="habit-tracker" alt="" />
-        </Project>
-
-        <Project
           title="Maintenance Tracker"
           date=""
           demoUrl="https://sammychris.github.io/MaintenanceTracker/"
@@ -80,7 +83,7 @@ const IndexPage = () => {
           <QueryImage name="maintenance-tracker" alt="" />
         </Project>
 
-        <Project
+        {/* <Project
           title="Hello Books"
           date="2017"
           bg={true}
@@ -99,7 +102,7 @@ const IndexPage = () => {
           <Stacks stack="mocha" index={4} />
           <Stacks stack="chai" index={5} />
           <QueryImage name="hellobooks" alt="" />
-        </Project>
+        </Project> */}
 
         <Project
           title="Heat Map"
@@ -115,6 +118,27 @@ const IndexPage = () => {
           <Stacks stack="css3" index={1} />
           <Stacks stack="javascript" index={2} />
           <QueryImage name="d3-heat-map" alt="" />
+        </Project>
+
+        <Project
+          title="RoboFriends"
+          date=""
+          demoUrl="https://sammychris.github.io/robofriends/"
+          codeUrl="https://github.com/sammychris/robofriends"
+          description={`This project was created for learning purpose, while on my path of becoming senior developer.
+          It's an App that displays random robot pictures using Api.
+          
+          Learning Purpose: TypeScript, Redux, Presentational and Container component, and React testing
+            with Jest and Enzymes.
+          `}
+        >
+          <Stacks stack="react" index={0} />
+          <Stacks stack="redux" index={1} />
+          <Stacks stack="tachyons" index={2} />
+          <Stacks stack="typescript" index={3} />
+          <Stacks stack="jest" index={4} />
+          <Stacks stack="enzymes" index={5} />
+          <QueryImage name="robofriends" alt="" />
         </Project>
 
         <Project
@@ -238,6 +262,22 @@ const IndexPage = () => {
           <QueryImage name="d3-barchart" alt="" />
         </Project>
 
+        <Project
+          title="Habit Tracker"
+          date=""
+          bg={true}
+          demoUrl="https://chingu-habit-tracker.herokuapp.com/"
+          codeUrl="https://github.com/chingu-voyages/bears-project-8"
+          description={`An application that helps users track and maintain habits, such as exercising, eating healthy, or practicing a new skill.
+          
+          This app allows users to set goals and create a schedule for their habits, reminders, motivation, and analytics to help users stay on track and reach their goals. I worked with some group developers. I worked on both front, backend and designs using figma`}
+        >
+          <Stacks stack="html5" index={0} />
+          <Stacks stack="css3" index={1} />
+          <Stacks stack="javascript" index={2} />
+          <QueryImage name="habit-tracker" alt="" />
+        </Project>
+
         {/* <Project
           title="Smart Brain"
           date=""
@@ -267,27 +307,6 @@ const IndexPage = () => {
           <Stacks stack="knex" index={3} />
           <QueryImage name="pending_project" alt="" />
         </Project> */}
-
-        <Project
-          title="RoboFriends"
-          date=""
-          demoUrl="https://sammychris.github.io/robofriends/"
-          codeUrl="https://github.com/sammychris/robofriends"
-          description={`This project was created for learning purpose, while on my path of becoming senior developer.
-          It's an App that displays random robot pictures using Api.
-          
-          Learning Purpose: TypeScript, Redux, Presentational and Container component, and React testing
-            with Jest and Enzymes.
-          `}
-        >
-          <Stacks stack="react" index={0} />
-          <Stacks stack="redux" index={1} />
-          <Stacks stack="tachyons" index={2} />
-          <Stacks stack="typescript" index={3} />
-          <Stacks stack="jest" index={4} />
-          <Stacks stack="enzymes" index={5} />
-          <QueryImage name="robofriends" alt="" />
-        </Project>
 
         <Project
           title="Keiko Corp"
