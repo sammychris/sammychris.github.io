@@ -13,7 +13,6 @@ const Project = ({
   imgName,
   children,
 }) => {
-  console.log({ imgName });
   return (
     <div
       className="contents"

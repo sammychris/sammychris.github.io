@@ -14,12 +14,13 @@ const IndexPage = () => {
           date=""
           bg={true}
           demoUrl="https://sammychris.github.io/frontend-challenge"
-          description={`A simple ecommerce App.
-          That Add/remove products and change quantities on cart page, PLP, and PDP.
-          Select product options and view them in cart overlay and cart page.
-          Filter products by category and display visual representation of swatch attributes on PLP and PDP.
-          Parse and display HTML descriptions as HTML.
-          Change store currency to one of the available options.`}
+          codeUrl="https://github.com/sammychris/frontend-challenge"
+          description={`A simple ecommerce App, that add/remove products and change quantities on cart page, PLP, and PDP.
+          Selects product options and view them in cart overlay and cart page.
+          Filters products by category and display visual representation of swatch attributes on PLP and PDP.
+          And Change store currency to one of the available options.
+          
+          Hosted backend on glitch. Try refreshing the page more than once, and it will load the products`}
         >
           <Stacks stack="react" index={0} />
           <Stacks stack="redux" index={1} />
