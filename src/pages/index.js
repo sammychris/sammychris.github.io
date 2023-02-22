@@ -10,6 +10,54 @@ const IndexPage = () => {
     <MainPage>
       <div id="all-projects" className="first">
         <Project
+          title="Populi News Website"
+          date=""
+          bg={true}
+          demoUrl="https://populi.vercel.app/"
+          description={`I worked on a news website for Gobigly that displays real-time data from the backend.
+          The website is updated regularly and has an intuitive user interface.
+          I collaborated with the development team, optimized the site for speed and performance, and conducted thorough testing to ensure quality.
+          
+          The project required effective communication and teamwork to meet our goals.`}
+        >
+          <Stacks stack="react" index={0} />
+          <Stacks stack="nextJs" index={1} />
+          <Stacks stack="css-modules" index={2} />
+          <QueryImage name="populi" />
+        </Project>
+
+        <Project
+          title="The Twins Funnel"
+          date=""
+          bg={true}
+          demoUrl="https://www.hodgetwinssweepstakes.com/"
+          description={`I created a promotional funnel for The Twins, a well-known comedy duo in the US, as a contractor for Gobigly, a marketing firm.
+          I used nextjs, css modules, and react-context to develop an engaging funnel with clear calls-to-action.
+
+          I worked closely with other developers to ensure that the final product met with the clients goals and expectations.`}
+        >
+          <Stacks stack="react" index={0} />
+          <Stacks stack="nextjs" index={1} />
+          <Stacks stack="css-modules" index={2} />
+          <Stacks stack="react-context" index={3} />
+          <QueryImage name="hodgetwinssweepstakes" />
+        </Project>
+
+        <Project
+          title="Melchapedivesolutions"
+          date=""
+          bg={true}
+          demoUrl="https://melchapedivesolutions.com"
+          description={`I built a WordPress website for a marine firm by designing a custom theme, integrating plugins and widgets, optimizing for performance and SEO, creating informative content, and implementing user-friendly navigation.
+          I collaborated with the client throughout the project to ensure their satisfaction and believe the website will help the firm attract new customers.`}
+        >
+          <Stacks stack="html" index={0} />
+          <Stacks stack="css" index={1} />
+          <Stacks stack="wordpress" index={2} />
+          <QueryImage name="melchapedivesolutions" />
+        </Project>
+
+        <Project
           title="Ecommerce Frontend Challenge"
           date=""
           bg={true}

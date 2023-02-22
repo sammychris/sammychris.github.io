@@ -3,7 +3,7 @@ module.exports = {
   //   siteUrl: `https://sammychris.github.io`,
   // },
   // pathPrefix: "/sammychris.github.io",
-  pathPrefix: "https://sammychris.github.io",
+  pathPrefix: "/sammychris.github.io",
   siteMetadata: {
     title: `SammyChris`,
     description: `Samuel Christopher - Portfolio`,
