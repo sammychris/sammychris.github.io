@@ -14,9 +14,6 @@ const QueryImage = function ({ name, props }) {
                 extension
                 relativePath
                 name
-                childImageSharp {
-                  gatsbyImageData
-                }
               }
             }
           }
